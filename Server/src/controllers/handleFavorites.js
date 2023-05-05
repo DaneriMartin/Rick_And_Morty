@@ -15,6 +15,7 @@ const postFav = (req, res) => {
     };
 };
 
+
 const deleteFav = (req, res) => {
     const { id } = req.params;
 

@@ -12,6 +12,7 @@ router.get("/login",(req,res)=> {
     login(req,res);
 });
 
+
 router.post("/fav", (req,res)=>{
     postFav(req,res);
 });
